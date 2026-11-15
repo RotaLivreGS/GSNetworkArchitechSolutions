@@ -42,13 +42,15 @@ Para abrir a rede, use o **Cisco Packet Tracer** (feito na versão 9.0.1).
 |---|---|---|---|---|
 | RotaLivre-GW | G0/0 | 192.168.137.1 | 255.255.255.0 (/24) | – |
 | RotaLivre-GW | G0/1 | 10.0.137.1 | 255.255.255.0 (/24) | – |
+| SW-Atendimento | Vlan1 | 192.168.137.2 | 255.255.255.0 (/24) | 192.168.137.1 |
+| SW-Equipe | Vlan1 | 10.0.137.2 | 255.255.255.0 (/24) | 10.0.137.1 |
 | Totem1 | Fa0 | 192.168.137.10 | 255.255.255.0 (/24) | 192.168.137.1 |
 | Totem2 | Fa0 | 192.168.137.11 | 255.255.255.0 (/24) | 192.168.137.1 |
 | Notebook-WiFi | Wireless0 | 192.168.137.12 | 255.255.255.0 (/24) | 192.168.137.1 |
 | Servidor-RotaLivre | Fa0 | 10.0.137.10 | 255.255.255.0 (/24) | 10.0.137.1 |
 | PC-Moderacao | Fa0 | 10.0.137.11 | 255.255.255.0 (/24) | 10.0.137.1 |
 
-Wi-Fi: SSID `RotaLivre-Atendimento`, WPA2-PSK.
+Wi-Fi: SSID `RotaLivre-Atendimento`, WPA2-PSK. O AP-Atendimento (AccessPoint-PT) não tem configuração de IP no Packet Tracer.
 
 ## Integrantes
 
